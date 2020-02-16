@@ -1,0 +1,204 @@
+/* 記事下プロフィールカード */
+
+.entry-footer-profile {
+    border: 1px solid #47a89c;/* 枠線 */
+    border-top: 5px solid #47a89c;/* トップのライン線 */
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.entry-footer-profile-title {
+    color: #454545;/* プロフィールタイトル文字色 */
+    font-size: 110%;
+    font-weight: bold;
+    padding: .5em 0 .5em .75em;
+    /* プロフィールタイトル背景 */
+    background: -moz-linear-gradient(0deg, #edf5f4, #edf5f4 10px, #f6faf9 0, #f6faf9 20px);
+    background: -webkit-linear-gradient(0deg, #edf5f4, #edf5f4 10px, #f6faf9 0, #f6faf9 20px);
+    background: repeating-linear-gradient(90deg, #edf5f4, #edf5f4 10px, #f6faf9 0, #f6faf9 20px);
+}
+
+.entry-footer-profile-body {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.entry-footer-profile-left {
+    width: 20%;
+    padding: 20px;
+}
+
+.entry-footer-profile-right {
+    width: 80%;
+    padding: 20px 20px 20px 0;
+}
+
+.entry-footer-profile-icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.entry-footer-profile-id {
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+}
+.entry-footer-profile-description {
+    margin-bottom: 10px;
+}
+/* スマートフォン */
+@media only screen and (max-width: 767px) {
+  .entry-footer-profile-body {
+      -webkit-flex-wrap: nowrap; 
+      flex-wrap: wrap;
+  }
+    .entry-footer-profile-left {
+      width: 100%;
+      padding: 20px 20px 0 20px;
+    }
+    .entry-footer-profile-right {
+      width: 100%;
+      padding: 0 20px 20px 20px;
+  }
+}
+/* フォローボタン */
+
+.entry-footer-follow-buttons {
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+}
+
+.entry-footer-follow-buttons a {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.entry-footer-follow-buttons .inner-text {
+    font-size: 13px;
+    display: block;
+}
+
+.entry-footer-follow-buttons .lg, .content-inner-follow-buttons .fa {
+    padding: 15px;
+    border-radius: 5px;
+    margin: 2px auto;
+}
+
+.entry-footer-follow-buttons .hatena {
+    color: #38393C;
+    background-color: transparent;
+}
+
+.entry-footer-follow-buttons .blogicon-hatenablog {
+    background: #38393C;
+    color: #ffffff;
+}
+
+.entry-footer-follow-buttons .blogicon-hatenablog:hover {
+    background: #5F6063;
+}
+
+.entry-footer-follow-buttons .facebook {
+    color: #305097;
+    background-color: transparent;
+}
+
+.entry-footer-follow-buttons .blogicon-facebook {
+    background: #305097;
+    color: #ffffff;
+}
+
+.entry-footer-follow-buttons .blogicon-facebook:hover {
+    background: #5A77B7;
+}
+
+.entry-footer-follow-buttons .twitter {
+    color: #55acee;
+    background-color: transparent;
+}
+
+.entry-footer-follow-buttons .blogicon-twitter {
+    background: #55acee;
+    color: #ffffff;
+}
+
+.entry-footer-follow-buttons .blogicon-twitter:hover {
+    background: #89C7F7;
+}
+
+.entry-footer-follow-buttons .instagram {
+    color: #D93177;
+    background-color: transparent;
+}
+
+.entry-footer-follow-buttons .blogicon-instagram {
+    background: #D93177;
+    color: #ffffff;
+}
+
+.entry-footer-follow-buttons .blogicon-instagram:hover {
+    background: #df528d;
+}
+
+.entry-footer-follow-buttons .niconico {
+    color: #d3d3d3;
+    background-color: transparent;
+}
+
+.entry-footer-follow-buttons .blogicon-niconico {
+    background: #d3d3d3;
+    color: #ffffff;
+}
+
+.entry-footer-follow-buttons .blogicon-niconico:hover {
+    background: #cccccc;
+}
+.entry-footer-follow-buttons .amazon {
+    color: #f0e68c;
+    background-color: transparent;
+}
+
+.entry-footer-follow-buttons .blogicon-amazon {
+    background: #f0e68c;
+    color: #ffffff;
+}
+
+.entry-footer-follow-buttons .blogicon-amazon:hover {
+    background: #eecd73;
+}
+.entry-footer-follow-buttons .music {
+    color: #ff9933;
+    background-color: transparent;
+}
+
+.entry-footer-follow-buttons .blogicon-music {
+    background: #ff9933;
+    color: #ffffff;
+}
+
+.entry-footer-follow-buttons .blogicon-music:hover {
+    background: #ff8c00;
+}
+.entry-footer-follow-buttons .pen {
+    color: #ff9933;
+    background-color: transparent;
+}
+
+.entry-footer-follow-buttons .blogicon-pen {
+    background: #ff6633;
+    color: #ffffff;
+}
+
+.entry-footer-follow-buttons .blogicon-pen:hover {
+    background: #f09199;
+}
