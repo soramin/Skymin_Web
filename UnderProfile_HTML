@@ -1,0 +1,33 @@
+<div class="entry-footer-profile">
+    <div class="entry-footer-profile-title"><i class="blogicon-subscribe"></i> 記事を書いた人</div>
+    <div class="entry-footer-profile-body">
+        <div class="entry-footer-profile-left"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/s/sora0922n/20190805/20190805174052_120.jpg" class="entry-footer-profile-icon" alt="プロフィールアイコン">
+        </div>
+        <div class="entry-footer-profile-right">
+            <div class="entry-footer-profile-description">ゆきねぇです！ 気ままに見てくれると嬉しいです。(でも、読者登録やSNSフォローしてくれると、もっと嬉しいかも)</div>
+            <div class="entry-footer-follow-buttons">
+                <a class="instagram" href="https://www.instagram.com/iamyuki_t" target="_blank">
+                    <i class="blogicon-instagram lg"></i>
+                    <span class="inner-text">Instagram</span>
+                </a>
+                <a class="twitter" href="https://twitter.com/iamyuki_t" target="_blank">
+                    <i class="blogicon-twitter lg"></i>
+                    <span class="inner-text">Twitter</span>
+                </a>
+
+                <a class="hatena" href="http://blog.hatena.ne.jp/sora0922n/skymin.hatenablog.com/subscribe" target="_blank">
+                    <i class="blogicon-hatenablog lg"></i>
+                    <span class="inner-text">Hatena</span>
+                </a>
+<a class="amazon" href="http://amzn.asia/6ZeSPc6" target="_blank">
+                    <i class="blogicon-amazon lg"></i>
+                    <span class="inner-text">Amazon</span>
+                </a>
+<a class="music" href="https://soundcloud.com/iamyuki_t" target="_blank">
+                    <i class="blogicon-music lg"></i>
+                    <span class="inner-text">Music</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
