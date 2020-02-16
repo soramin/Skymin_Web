@@ -8,6 +8,4 @@
 あ、コードの間違いなどは指摘してくれると嬉しいです。
 時間や重要度的に、ほとんど修正はしないと思いますけど。
 
-新サイトはこちらです
-↓
-https://www.pixiv.net/fanbox/creator/10408282
+新サイトはこちらです → https://www.pixiv.net/fanbox/creator/10408282
